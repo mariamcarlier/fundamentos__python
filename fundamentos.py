@@ -19,12 +19,12 @@ correo = "mariam00estudio@gmail.com"
 telefono = "3003600203"
 cedula = 1057980448
 
-print(type(nombre), nombre) #string
-print(type(edad), edad) #integer
-print(type(altura), altura) #float
-print(type(activo), activo) #boolean
-print(type(cedula), cedula) #integer
-print(type(correo), correo) #string
+print(type(nombre), nombre)     #string
+print(type(edad), edad)         #integer
+print(type(altura), altura)     #float
+print(type(activo), activo)     #boolean
+print(type(cedula), cedula)     #integer
+print(type(correo), correo)     #string
 print(type(telefono), telefono) #string
 print(type(cedula), cedula)
 

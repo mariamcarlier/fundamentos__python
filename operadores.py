@@ -1,11 +1,10 @@
 #REFERENCIA DE OPERADORES - Diap: 31
 #OPERADORES ARITMETICOS 
+tipo_operacion = int (input("Ingrese la operación que desea realizar "
+"(1. suma, 2. resta, 3. multiplicación, 4. división): "))
 
 valor1 = float (input("Ingrese el primer número: "))
 valor2 = float (input("Ingrese el segundo número: "))
-
-tipo_operacion = int (input("Ingrese la operación que desea realizar "
-"(1. suma, 2. resta, 3. multiplicación, 4. división): "))
 
 if tipo_operacion == 1:
     resultado = valor1 + valor2
