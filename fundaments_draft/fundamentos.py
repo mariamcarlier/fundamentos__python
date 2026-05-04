@@ -4,7 +4,8 @@ print('yo soy mariam')
 #usar reglas 
 AprendizSena = "mariam carlier"
 print(AprendizSena)
-snake_case = " el snake case con guion bajo- en variables se usa mas en las empresas" #se utiliza mas en las empresas 
+snake_case = " el snake case con guion bajo- en variables se usa mas en las empresas" 
+#se utiliza mas en las empresas 
 print(snake_case)
 camelCase = "EL CAMELCASE SE asocia con un camello" #seutiliza en muchos programas
 print(camelCase)
@@ -19,12 +20,12 @@ correo = "mariam00estudio@gmail.com"
 telefono = "3003600203"
 cedula = 1057980448
 
-print(type(nombre), nombre)     #string
-print(type(edad), edad)         #integer
-print(type(altura), altura)     #float
-print(type(activo), activo)     #boolean
-print(type(cedula), cedula)     #integer
-print(type(correo), correo)     #string
+print(type(nombre), nombre) #string
+print(type(edad), edad) #integer
+print(type(altura), altura) #float
+print(type(activo), activo) #boolean
+print(type(cedula), cedula) #integer
+print(type(correo), correo) #string
 print(type(telefono), telefono) #string
 print(type(cedula), cedula)
 
@@ -69,4 +70,4 @@ print(type(edad), edad)
 print(f"Hola, {nombre_usuario}. Tu edad es {edad} años.") 
 #f-string es una forma de formatear cadenas de texto, permite incluir variables dentro de la cadena utilizando llaves {}. Es una forma mas legible y facil de escribir que la concatenacion tradicional.
 
-print("bienvenido"+ nombre_usuario + " , tienes " + str(edad) + "años .")#la basica es esta: 
+print("bienvenido "+ nombre_usuario + " , tienes " + str(edad) + " años .")#la basica es esta: 
