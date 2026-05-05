@@ -25,8 +25,22 @@ print (not True)  # Si es falso = True
 print ("EJERCICIO DE AND CON VALORES")
 print (5 > 3 and 2 < 4) # = True
 print (5 > 3 and 2 > 4) # = False
-
+print (2 > 3 and 5 < 4) # = false
 
 print("EJERCICIO DE OR")
+print (3==3 or 2 < 4) # = true
+print(2<=2 or 3!=3) # =true
+print(10<5 or 5==6) # = false
 
 print("EJERCICIO DE NOT")
+x = True
+print(not x)  # Resultado: False
+
+y = False
+print(not y)  # Resultado: True
+
+edad = 15
+# Comprobar si NO es mayor de edad
+if not edad >= 18:
+    print("Es menor de edad.")
+# Resultado: Es menor de edad.
