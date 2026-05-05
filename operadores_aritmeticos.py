@@ -54,7 +54,7 @@ print (f" El resultado de la expresion {a} * ({b} // 3) es: {resultado_5}")
 
 
 
-#plan teamiento de un ejercicio aplicando esta jerarquia con su orden (precedencia ) :
+#planteamiento de un ejercicio aplicando esta jerarquia con su orden (precedencia ) :
 ejercicio_practica = ((a + b )* (a - b ) / (a * b)) - ((a**b) % 3 )
     #paso a paso : (3+2) * (3-2) / (3*2) - ((3**2) % 3 ) 
     #               = 5 * 1 / 6 - (9 % 3 ) 
