@@ -26,7 +26,12 @@ print ("EJERCICIO DE AND CON VALORES")
 print (5 > 3 and 2 < 4) # = True
 print (5 > 3 and 2 > 4) # = False
 
-
+#2 OR
 print("EJERCICIO DE OR")
+print (3==3 or 2<4) #True
+print (2<=2 or 3!=3) #true
+print(2!=2 or 5<10) #true
+print(10<5 or 5==6) #false
 
+#3 NOT 
 print("EJERCICIO DE NOT")

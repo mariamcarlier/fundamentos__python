@@ -23,7 +23,7 @@ print (x)
 
 # 4 Division y asignacion (/=)
 x = x / 2
-x/= 2
+x/= 2 
 print (x)
 
 
