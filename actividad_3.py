@@ -16,6 +16,13 @@ print("=" * 45)
 resultado_imc = round(imc,2)
 print(f"Tu IMC es: {resultado_imc}")
 
+# -----------------------------------------
+if peso <= 0 or estatura <= 0:
+    print("Si el resultado sale de IMC sale 0.0 ingreso mal el peso o la estatura")
+    if resultado_imc <= 0.0:
+        print("🔒⛔Error: El peso y la estatura deben ser valores positivos. ")
+    print("Por favor reinicia el programa e intenta de nuevo")
+
 print("=" * 45)
 
 #COMPOSICION CORPORAL

@@ -36,5 +36,10 @@ else:
 #Concepto- operador ternario - entre menos lineas sera mas optimizado-simplifica 4 lineas en una
 #sintaxis :[true] if [expresion] else [false]
 numero = 4
-if numero % 2 ==0:
-    
+print("El número es par") if numero % 2 == 0 else print("El número es impar")
+
+#PARTE LARGA
+#if numero %2 == 0:
+#   print("El numero es par")
+#else:
+    #print ("el numero es impar")
