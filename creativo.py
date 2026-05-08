@@ -85,7 +85,7 @@ print("=" * 45)
 total = precio_base + extra_precio
 descuento_valor = total * descuento
 total_final = total - descuento_valor
-print("=" * 45)
+
 
 # ====== RESUMEN ======
 print("\n========== RESUMEN DE COMPRA ==========")
@@ -94,9 +94,10 @@ print(f"Tipo de anillo: {tipo}")
 print(f"Talla: {talla}")
 print(f"Extra: {extra}")
 print(f"Precio base: ${precio_base}")
-print(f"Extra: ${extra_precio}")
+print(f"Extra Valor: ${extra_precio}")
 print(f"Descuento: ${descuento_valor}")
 print(f"TOTAL A PAGAR: ${total_final}")
 print("======================================")
 
 print("\n🙏 Gracias por confiar en nosotros.🤗")
+print("=" * 45)

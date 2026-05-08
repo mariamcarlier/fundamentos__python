@@ -7,7 +7,8 @@ print("CONCEJO: imprima sus notas con decimales")
 print("(ej:5.0 - tenga en cuenta el .)")
 print("=" * 45)
 # declarando variables
-#paso 1 :soliciar al usuario ingresar notas - y se convirtio a float para que acepte decimales, si se ingresa un numero entero se convertira a decimal automaticamente
+#paso 1 :soliciar al usuario ingresar notas - y se convirtio a float para que acepte decimales,
+#  si se ingresa un numero entero se convertira a decimal automaticamente
 nota1 = float(input("Ingrese la primera nota parcial: "))
 nota2 = float(input("Ingrese la segunda nota parcial: "))
 nota3 = float(input("Ingrese la tercera nota parcial: "))
