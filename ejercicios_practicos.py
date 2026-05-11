@@ -126,7 +126,7 @@ print(f"Valores después del intercambio - numeroUno: {numeroUno}, numeroDos: {n
 
 #------------------------------------------------------------------------------------
 print("=" *69)
-print("---Este es el ejercicio 6 - BOOLEANO ESTADOS --")
+print("---Este es el ejercicio 7- BOOLEANO ESTADOS --")
 """Ejercicio 7
 
 Crear una variable booleana llamada “Estado”. Realizar la siguiente
