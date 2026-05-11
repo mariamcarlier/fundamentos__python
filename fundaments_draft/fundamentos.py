@@ -71,3 +71,29 @@ print(f"Hola, {nombre_usuario}. Tu edad es {edad} años.")
 #f-string es una forma de formatear cadenas de texto, permite incluir variables dentro de la cadena utilizando llaves {}. Es una forma mas legible y facil de escribir que la concatenacion tradicional.
 
 print("bienvenido "+ nombre_usuario + " , tienes " + str(edad) + " años .")#la basica es esta: 
+
+#--------------------------------------------
+print("Este es el ejercicio 10 - CALCULO DEL AREA DE UN CIRCULO 📐")
+"""Ejercicio 10
+
+• Crear una variable llamada “Radio”.
+• Calcular el área de un círculo utilizando la fórmula: A = π * r^2.
+• Mostrar el resultado del cálculo."""
+import math
+radio = float(input("Ingrese el radio del círculo: "))
+area_circulo = math.pi * radio ** 2
+print(f"El área del círculo con radio {radio} es: {area_circulo}")
+
+print("Este es el ejercicio 9 - CONVERSION DE UNIDADES 📏")
+"""Ejercicio 9
+
+• Crear una variable llamada “Metros”.
+• Convertir la variable “Metros” a centímetros, pulgadas y pies.
+• Mostrar los resultados de la conversión."""
+metros = float(input("Ingrese la cantidad de metros: "))
+centimetros = metros * 100
+pulgadas = metros * 39.3701
+pies = metros * 3.28084
+print(f"{metros} metros son {centimetros} centímetros.")
+print(f"{metros} metros son {pulgadas} pulgadas.")
+print(f"{metros} metros son {pies} pies.")
