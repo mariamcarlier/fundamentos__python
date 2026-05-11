@@ -134,23 +134,81 @@ operación sobre la variable “Estado”: (5 == 2) || (2 > 1). Mostrar el
 resultado de la variable “Estado”."""
 Estado = (5 == 2) or (2 > 1)
 print(f"El resultado de la variable Estado es: {Estado}")
+# Como una de las dos es verdadera, la variable Estado se vuelve True
 #------------------------------------------------------------------------------------
 print("=" *69)
+print("Este es el ejercicio 8 - utilizando todos los operadores matematicos💥")
 """Ejercicio 8
-
-Condicionales
 
 • Crear una variable llamada “Resultado”.
 • Dentro de la variable “Resultado”, crear una operación aritmética
 donde se haga uso de todos los operadores matemáticos en
 repetidas ocasiones con los números que tú determines.
-• Ejemplo: (9/2) +8*2/1-(2+2) ....
 • Mostrar el resultado de la operación."""
+resultado = (202 / 2) + 9 * 2 / 1 - (7 + 2) + (10 ** 3) - (10 % 3)
+print (f"El resultado de la operación aritmética es: {resultado}")
+#------------------------------------------------------------------------------------
+print("=" *69)
+print("Este es el ejercicio 9 - 📏")
+# --- CUADRADO ---
+ladoCuadrado = 8
+areaCuadrado = ladoCuadrado * ladoCuadrado
+perimetroCuadrado = ladoCuadrado * 4
+
+print("--- Cuadrado ---")
+print(f"Área: {areaCuadrado}")
+print(f"Perímetro: {perimetroCuadrado}")
+
+# --- TRIÁNGULO ---
+baseTriangulo = 9
+alturaTriangulo = 8
+ladoUnoTriangulo = 8
+ladoDosTriangulo = 8
+
+# El área de un triángulo es (base * altura) / 2
+areaTriangulo = (baseTriangulo * alturaTriangulo) / 2
+# El perímetro es la suma de sus tres lados
+perimetroTriangulo = baseTriangulo + ladoUnoTriangulo + ladoDosTriangulo
+
+print("\n--- Triángulo ---")
+print(f"Área: {areaTriangulo}")
+print(f"Perímetro: {perimetroTriangulo}")
+
+# --- RECTÁNGULO ---
+baseRectangulo = 8
+alturaRectangulo = 6
+
+areaRectangulo = baseRectangulo * alturaRectangulo
+perimetroRectangulo = (baseRectangulo * 2) + (alturaRectangulo * 2)
+
+print("\n--- Rectángulo ---")
+print(f"Área: {areaRectangulo}")
+print(f"Perímetro: {perimetroRectangulo}")
 
 #------------------------------------------------------------------------------------
 print("=" *69)
-#EJERCICIO 9
+print("Este es el ejercicio 10 - PROGRAMA PARA DETERMINAR EDAD - CATEGORIAS 📐")
 
-#------------------------------------------------------------------------------------
-print("=" *69)
-#EJERCICIO 10
+# Solicitamos la edad al usuario y la convertimos a entero
+edad = int(input("Ingrese su edad para determinar su categoría: "))
+
+# Evaluamos los rangos de menor a mayor
+if edad < 0:
+    print("Error: La edad no puede ser un número negativo.")
+elif edad <= 5:
+    print("Categoría: Infante")
+elif edad <= 10:
+    print("Categoría: Niño")
+elif edad <= 15:
+    print("Categoría: Pre adolescente")
+elif edad <= 18:
+    print("Categoría: Adolescente")
+elif edad <= 25:
+    print("Categoría: Pre adulto")
+elif edad <= 40:
+    print("Categoría: Adulto")
+elif edad <= 55:
+    print("Categoría: Pre anciano")
+else:
+    # Si no cumplió ninguna de las anteriores, automáticamente es 56 o mayor
+    print("Categoría: Anciano")
