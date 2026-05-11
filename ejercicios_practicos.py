@@ -84,6 +84,7 @@ else:
 
 #------------------------------------------------------------------------------------
 print("=" *69)
+print("---Este es el ejercicio 5 - NOTAS / PROMEDIO ESTUDIANTE 🏫👨🏼‍🎓---🧠- ")
 """Ejercicio 5
 
 • Crear una variable para almacenar el nombre de un estudiante.
@@ -92,29 +93,47 @@ print("=" *69)
 decimales. (Recuerda que un promedio se calcula sumando todos los valores y dividiendo el resultado por el número de valores).
 • Mostrar el resultado y el nombre del estudiante."""
 
+nombre_estudiante = input("Ingrese el nombre del estudiante: ")
+nota1 = float(input("Ingrese la primera nota decimal: "))
+nota2 = float(input("Ingrese la segunda nota decimal: "))
+nota3 = float(input("Ingrese la tercera nota decimal: "))
+nota4 = float(input("Ingrese la cuarta nota decimal: "))
+nota5 = float(input("Ingrese la quinta nota decimal: "))
+
+promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+
+print(f"El promedio final del estudiante {nombre_estudiante} es: {promedio}")
 
 #------------------------------------------------------------------------------------
 print("=" *69)
+print("---Este es el ejercicio 6 - INTERCAMBIO DE VALORES 🧮---")
 """Ejercicio 6
 
 Crear una variable entera de nombre “numeroUno” con el valor de 8 y
 una variable entera de nombre “numeroDos” con el valor de 2.
-Intercambiar los valores de ambas variables, de modo que
-“numeroUno” valga 2, y
+Intercambiar los valores de ambas variables, de modo que “numeroUno” valga 2, 
+y “numeroDos” valga 8. (Utiliza una variable auxiliar). Mostrar los resultados de ambas variables."""
+numeroUno = 8
+numeroDos = 2
+print(f"Valores iniciales - numeroUno: {numeroUno}, numeroDos: {numeroDos}")
 
-“numeroDos” valga 8. (Utiliza una variable
+# Intercambiar los valores utilizando una variable auxiliar
+aux = numeroUno
+numeroUno = numeroDos
+numeroDos = aux
 
-auxiliar). Mostrar los resultados de ambas variables."""
+print(f"Valores después del intercambio - numeroUno: {numeroUno}, numeroDos: {numeroDos}")
 
 #------------------------------------------------------------------------------------
 print("=" *69)
+print("---Este es el ejercicio 6 - BOOLEANO ESTADOS --")
 """Ejercicio 7
-
-Condicionales
 
 Crear una variable booleana llamada “Estado”. Realizar la siguiente
 operación sobre la variable “Estado”: (5 == 2) || (2 > 1). Mostrar el
 resultado de la variable “Estado”."""
+Estado = (5 == 2) or (2 > 1)
+print(f"El resultado de la variable Estado es: {Estado}")
 #------------------------------------------------------------------------------------
 print("=" *69)
 """Ejercicio 8
