@@ -1,4 +1,6 @@
-#Actividad 1: Inventario de la Tienda EscolaR
+print("="*75)
+print("Actividad 1: Inventario de la Tienda EscolaR")
+print("="*75)
 
 productos = ['Cuadernos', 'Lápices', 'Borradores', 'Colores', 'Libros', 'Carpetas']
 precios = [ 8500, 2000 , 1500 , 27000 , 60000 , 6500]
