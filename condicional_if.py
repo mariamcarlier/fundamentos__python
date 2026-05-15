@@ -28,7 +28,7 @@ if edad < 18:
     else:
         print("Eres un Niño")
 else:
-    if edad >=18 and edad <60: # si es mayor o igual a 18 y menor que 60 entonces es adulto
+    if edad >=26 and edad <40: # si es mayor o igual a 26 y menor que 40 entonces es adulto
         print("Eres un adulto")
     else:
         print("Eres un adulto mayor")# sino es adulto mayor
